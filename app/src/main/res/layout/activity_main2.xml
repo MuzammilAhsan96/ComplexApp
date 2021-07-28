@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E2E2E"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:src="@drawable/boat"
+                android:scaleType="centerCrop"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_left_foreground"
+                android:layout_marginTop="10dp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:background="#151515"
+                android:src="@drawable/ic_bookmark_foreground"
+                android:layout_marginTop="70dp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_shar"
+                android:background="#151515"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="133dp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="#151515"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_location_foreground"
+                android:layout_marginTop="195dp"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:alpha="08"
+        android:background="@drawable/bg_shape"
+        android:backgroundTint="#31B404"
+        android:text="Create Trip Report"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
